@@ -20,14 +20,3 @@ WPF-приложение для объективного сравнения пр
 ---
 
 ## 🗃 Структура проекта
-CommandProjectPV-425/
-├── Helpers/ # Вспомогательные утилиты (JsonHelper, SystemInfo)
-├── Interfaces/ # IBenchmarkService, IChartService, IDataService
-├── Models/ # BenchmarkResult.cs, AppDbContext.cs
-├── Services/ # Реализации сервисов
-├── Tests/ # Бенчмарки: CountAboveAverage.cs, FindPrimeNumbers.cs и др.
-├── ViewModels/ # MainViewModel.cs, ChartViewModel.cs
-├── Views/ # MainWindow.xaml, ChartView.xaml
-├── App.xaml # Точка входа WPF
-├── App.xaml.cs # Регистрация DI и запуск
-└── bin/Debug/net8.0/Data/app.db ← БД создаётся автоматически при первом запуске
